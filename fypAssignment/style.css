@@ -1,0 +1,339 @@
+footer .footerimg{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    background-size: auto;
+
+}
+
+input .loginform{
+
+    border: 100px;
+    border: black;
+
+    
+
+
+
+}
+
+
+
+.welcomemsg h1{
+
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial;
+
+
+
+}
+ h1{
+
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial;
+
+
+
+}
+
+footer p{
+
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    text-decoration: underline;
+
+
+}
+
+.navigation ul{
+    text-align: right;
+}
+
+.navigation ul li{
+
+    text-align: center;
+    display: inline-block;
+}
+
+.navigation ul li a{
+    padding: 1rem;
+    display: block;
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.navigation ul li a:hover{
+    background-color: rgb(240, 240, 240);
+    text-decoration: underline;
+}
+
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+
+    max-width: 1500px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+
+
+main .card{
+
+
+    flex-grow: 1;
+    width: 25%;
+    max-width: 200px;
+    text-align: center;
+    padding: 1rem; /*  16 pixels - based on your browser */
+    border: 1px solid black;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+
+
+
+}
+
+
+main .card .image{
+
+    max-height: 30%;
+    margin-bottom: 20px;
+
+
+}
+
+main .card .image img {
+    max-width: 100%;
+    min-width: auto;
+    max-height: 100%;
+    object-fit: contain;
+    display: inline-block;
+    position: relative;
+
+    
+
+
+
+
+
+}
+
+main .card .description{
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+main .card .description p{
+
+    font-size: 0.8rem;
+
+
+}
+
+main .card button{
+
+   border: 2px solid black;
+    padding: 1em;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 2em;
+    font-weight: bold;
+    position: relative;
+
+}
+
+main .card a{
+
+    border: 2px solid black;
+    padding: 1em;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 2em;
+    color: black;
+    position: relative;
+    background-color: lightgray;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: bold;
+
+
+
+
+}
+
+main .card a:hover{
+
+    border: 2px solid black;
+    padding: 1em;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 2em;
+    color: black;
+    position: relative;
+    background-color: black;
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+main .card button:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color: blue;
+    transition: all .5s;
+    margin: 0;
+}
+
+main .card button:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    background-color: blue;
+    transition: all .5s;
+}
+
+/*main .card button:hover::before{*/
+
+/*    width: 30%;*/
+
+/*}*/
+
+/*main .card button:hover::after{*/
+
+/*    width: 30%;*/
+
+/*}*/
+
+main .card button:hover{
+    background-color: rgb(0,0,0);
+    color: white;
+}
+
+div .full_page{
+
+    position: relative;
+}
+
+
+
+
+main{
+
+    max-width: 1500px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+main .card{
+
+
+    flex-grow: 1;
+    width: 25%;
+    max-width: 200px;
+    text-align: center;
+    padding: 1rem; /*  16 pixels - based on your browser */
+    border: 1px solid black;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+
+
+
+}
+
+
+main .card .image{
+
+    max-height: 30%;
+    margin-bottom: 20px;
+
+
+}
+
+main .card .image img {
+    max-width: 100%;
+    min-width: auto;
+    max-height: 100%;
+    object-fit: contain;
+    display: inline-block;
+    position: relative;
+
+
+
+
+
+
+
+}
+
+main .card .description{
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+main .card .description p{
+
+    font-size: 0.8rem;
+
+
+}
+
+a.catname {
+    display: inline-block;
+    margin-bottom: 5rem;
+}
